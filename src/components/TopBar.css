@@ -1,0 +1,51 @@
+.top-bar {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 12px 0;
+  font-size: 14px;
+}
+
+.top-bar-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar-left {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.phone-text {
+  color: white;
+}
+
+.email-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+}
+
+.email-icon {
+  color: white;
+}
+
+.top-bar-right {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .top-bar-content {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
+

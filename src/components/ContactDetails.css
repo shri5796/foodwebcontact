@@ -1,0 +1,39 @@
+.contact-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+.contact-detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.detail-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2d2d2d;
+  margin: 0;
+}
+
+.detail-content {
+  font-size: 16px;
+  color: #6b6b6b;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.phone-number {
+  color: #dc2626;
+  font-weight: 500;
+}
+
+@media (max-width: 968px) {
+  .contact-details {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
